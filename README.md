@@ -9,7 +9,7 @@
 - result：展示结果页，并显示生成海报按钮，生成图片保存到本地
 
 ## 已经上线的二维码
-
+![avatar](https://github.com/chenzhiran/newyeargame/blob/master/miniprogram/images/gh_2a17f5f49a4d_430.jpg)
 
 
 
