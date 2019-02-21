@@ -1,0 +1,22 @@
+<view class="test-wrapper">
+<!--题目编号和题目-->
+  <image class="test-bg" src="/images/test.png"></image>
+  <image wx:if="{{page}}" class="page" src="{{page}}"></image>
+  <image wx:if="{{title}}" class="title" src="{{title}}" mode='aspectFit'></image>
+<!--选项-->
+  <button class="test-a-btn" bindtap="onTapTestA" plain="true">
+    <image wx:if="{{a}}" class="test-a" src="{{a}}" mode='aspectFit'></image>
+  </button>
+   <button class="test-b-btn" bindtap="onTapTestB" plain="true">
+    <image wx:if="{{b}}" class="test-b" src="{{b}}" mode='aspectFit'></image>
+  </button>
+   <button class="test-c-btn" bindtap="onTapTestC" plain="true">
+    <image wx:if="{{c}}" class="test-c" src="{{c}}" mode='aspectFit'></image>
+  </button>
+<!--点击后才显示的答案和下一题按钮-->
+  <image wx:if="{{answer}}" class="answer" src="{{answer}}"></image> 
+  <image wx:if="{{answerbtn}}" class="next-btn" bindtap="onTapAnswer" src="{{answerbtn}}"></image>
+
+</view>
+
+

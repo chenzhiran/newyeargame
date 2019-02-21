@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view>shouye</view>
+<view class="first-wrapper">
+  <image class="first-bg" src="/images/bg.png"></image>
+  <button class="test-button" bindtap="onTapTest" plain="true">
+    <image class="comeon-bg" src="/images/comeon.png"></image>
+  </button>
+</view>

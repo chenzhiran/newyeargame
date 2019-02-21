@@ -1,0 +1,143 @@
+/* pages/last/last.wxss */
+/* pages/test/test.wxss */
+.last-wrapper{
+  width: 100%;
+  height: 100%;
+  background: #A62116;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+/* 背景图片 */
+.last-bg{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.page{
+  position: fixed;
+  width: 150rpx;
+  height: 100rpx;
+  top:100rpx;
+  left: 300rpx;
+  z-index: 10;
+}
+
+.title{
+  position: fixed;
+  width: 650rpx;
+  height: 400rpx;
+  top:130rpx;
+  left: 40rpx;
+  z-index: 10;
+}
+
+
+/* 跳转按钮a */
+.test-a-btn{
+  width: 650rpx;
+  height: 120rpx;
+  border: none!important;
+  position: fixed;
+  top:350rpx;
+  left: 60rpx;
+  z-index: 10;
+}
+.test-a{
+  position: fixed;
+  top:350rpx;
+  left: 60rpx;
+  width: 650rpx;
+  height: 120rpx;
+}
+
+/* 跳转按钮b */
+.test-b-btn{
+  width: 650rpx;
+  height: 120rpx;
+  border: none!important;
+  position: fixed;
+  top:450rpx;
+  left: 60rpx;
+  z-index: 10;
+}
+.test-b{
+  position: fixed;
+  top:450rpx;
+  left: 60rpx;
+  width: 650rpx;
+  height: 120rpx;
+}
+
+/* 跳转按钮c */
+.test-c-btn{
+  width: 650rpx;
+  height: 120rpx;
+  border: none!important;
+  position: fixed;
+  top:550rpx;
+  left: 60rpx;
+  z-index: 10;
+}
+.test-c{
+  position: fixed;
+  top:550rpx;
+  left: 60rpx;
+  width: 650rpx;
+  height: 120rpx;
+}
+
+/* 跳转按钮d */
+.test-d-btn{
+  width: 650rpx;
+  height: 120rpx;
+  border: none!important;
+  position: fixed;
+  top:650rpx;
+  left: 60rpx;
+  z-index: 10;
+}
+.test-d{
+  position: fixed;
+  top:650rpx;
+  left: 60rpx;
+  width: 650rpx;
+  height: 120rpx;
+}
+
+/* 跳转按钮e */
+.test-e-btn{
+  width: 650rpx;
+  height: 120rpx;
+  border: none!important;
+  position: fixed;
+  top:750rpx;
+  left: 60rpx;
+  z-index: 10;
+}
+.test-e{
+  position: fixed;
+  top:750rpx;
+  left: 60rpx;
+  width: 650rpx;
+  height: 120rpx;
+}
+
+/* 跳转按钮 */
+.next-btn{
+  width: 250rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom:80rpx;
+  right: 250rpx;
+  z-index: 10;
+
+}
+
+
+

@@ -1,0 +1,33 @@
+<!--pages/last/last.wxml-->
+<view class="last-wrapper">
+<!--题目编号和题目-->
+  <image class="last-bg" src="/images/test.png"></image>
+  <image class="page" src="{{page}}"></image>
+  <image class="title" src="{{title}}" mode='aspectFit'></image>
+<!--选项-->
+  <button class="test-a-btn" bindtap="onTapTest" plain="true">
+    <image class="test-a" src="{{a}}" mode='aspectFit'></image>
+  </button>
+
+  <button class="test-b-btn" bindtap="onTapTest" plain="true">
+    <image class="test-b" src="{{b}}" mode='aspectFit'></image>
+  </button>
+
+   <button class="test-c-btn" bindtap="onTapTest" plain="true">
+    <image class="test-c" src="{{c}}" mode='aspectFit'></image>
+  </button>
+
+   <button class="test-d-btn" bindtap="onTapTest" plain="true">
+    <image class="test-d" src="{{d}}" mode='aspectFit'></image>
+  </button>
+
+
+   <button class="test-e-btn" bindtap="onTapTest" plain="true">
+    <image class="test-e" src="{{e}}" mode='aspectFit'></image>
+  </button>
+
+<!--点击后才显示的答案和下一题按钮-->
+
+  <image class="next-btn" bindtap="onTapAnswer" src="{{answerbtn}}"></image>
+
+</view>
